@@ -3,6 +3,7 @@
   (name (_ "Bouncy Coils"))
   (author "Christoph Sommer")
   (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 0)
   (sector
     (name "main")
     (music "music/forest.music")
@@ -91,7 +92,7 @@
     )
     (secretarea
       (script "")
-      (message (_ ""))
+      (message "")
       (width 77)
       (height 144)
       (x 9)
@@ -100,7 +101,7 @@
     (secretarea
       (fade-tilemap "secret1")
       (script "")
-      (message (_ ""))
+      (message "")
       (width 220)
       (height 124)
       (x 3104)
